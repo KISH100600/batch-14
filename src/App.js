@@ -22,7 +22,7 @@ const App = () => {
           element={<First />}
           children={
             <>
-              <Route path="second" element={<Second data={"kish"} />} />
+              <Route path="second" element={<Second data={"hello"} />} />
               <Route path="third" element={<Third />} />
               <Route path="fourth" element={<Fourth />} />
             </>
